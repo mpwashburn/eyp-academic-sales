@@ -1,0 +1,85 @@
+/****************************Elements****************************/
+.pure-g > div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html, button, input, select, textarea,
+  .pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+  color: #000;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0;
+  border-width: 0;
+  border-style: 0;
+  border-color: transparent;
+  transform-origin: left top;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  clear: both;
+  line-height: 1.3em;
+  /*margin-top: 2.5rem;*/
+  margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.4em !important; } /*Pure will override h1 element*/
+h2 { font-size: 2.2em; }
+h3 { font-size: 2.0em; }
+h4 { font-size: 1.8em; }
+h5 { font-size: 1.6em; }
+h6 { font-size: 1.4em; }
+
+p {
+  font-weight: 300;
+  font-family: inherit;
+  color: #6E6F71;
+  font-size: 1.125rem;
+  line-height: 1.438rem
+}
+
+
+li {
+  list-style: none;
+}
+
+/****************************#Header****************************/
+.site-header {
+  height: 5.313em;
+}
+
+.site-header div {
+padding: 0;
+}
+
+/****************************##NavMenu****************************/
+#site-navigation {
+  background-color: #F15B29;
+}
+.nav-menu li {
+  padding: .5rem;
+  display: inline-block;
+}
+
+@media screen and (min-width: 43.438em) {
+  .menu-toggle {
+    display: none;
+  }
+  .nav-menu li: {
+    display: block;
+  }
+}
